@@ -26,15 +26,23 @@ int main(void)
 int convert(string input)
 {
     // TODO
-    int output = strlen(input);
+    int len = strlen(input)-1;
+    int number = input[len]-48;
+    input[len] = '\0';
 
-    if (output == 0)
+    if (len == 0)
     {
-        return 0;
+        return number;
     }
 
     else
     {
-
+        // Remove the input until a digit is reached
+        number += 10 * convert(input);
     }
+    return number;
 }
+
+
+
+
