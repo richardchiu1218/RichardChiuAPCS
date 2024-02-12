@@ -1,3 +1,4 @@
+import random
 # Pseudocode
 # Define main function
 # Print Menu Options and ask for user input
@@ -10,35 +11,43 @@
 # If the tries limit is exceeded, print a losing message, end the game, print menu options, and prompt input
 
 def instructions():
-    print(" Welcome to Richard's word game  ")
-    print(" Input one of 3 topics   ")
-    print(" Guess in less than 3 tries  ")
-    print("")
-    print("")
+    print(" Welcome to Richard's word game   ")
+    print("     Input one of 3 topics        ")
+    print(" Guess word in less than 3 tries  ")
+    print("            Good Luck!            ")
 
 def play_game():
-    print("")
+    word_banks = {
+    "Food": ["apple", "banana", "lemon", "asparagus", "beef", "lamb", "rice", "beans", "lettuce", "pork", "bacon", ""],
+    "Sports": ["basketball", "football", "baseball", "boxing", ""],
+    "category3": ["word7", "word8", "word9"]
+    }
+
+    word_bank = word_banks[category]
+    random_word = random.choice(word_bank)
+
+
 def random():
-    print("")
+
 def scoreboard():
-    print("")
+
 
 def menu():
     print("         Word Guesser        ")
     print("     1. Instructions     ")
-    print("     2.      " )
-    print("     3.      " )
-    print("     4.      " )
+    print("     2. Food     " )
+    print("     3. Sports     " )
+    print("     4. Anime     " )
     print("     5. Random Selection     " )
     print("     6. Scoreboard      " )
     print("     7. Exit     " )
     j =int(0)
     while j > 7 or j <1:
-        print("Error: Input a Number between 1-6)
+        print("Error: Input a Number between 1-6")
         try:
             j = int(input(":")
         except ValueError:
-            print("Error: Input a Number between 1-6)
+            print("Error: Input a Number between 1-6")
 
 
 def main():
@@ -65,3 +74,4 @@ def main():
 
 
 main()
+
