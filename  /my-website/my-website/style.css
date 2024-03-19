@@ -1,0 +1,63 @@
+body{
+        background-color: gray;
+
+        #title{
+            color: black;
+            background-color: white;
+            font-family: Times;
+            font-size: 65px;
+            font-weight: bold;
+            text-align: center;
+        }
+        #index{
+            color: black;
+            font-family: Times;
+            font-size: 25px;
+        }
+
+        .catsfacts{
+            color: black;
+            font-family: Times;
+            font-size: 40px;
+            font-weight: bold;
+            background-color: white;
+        }
+
+        #facts
+        {
+            color: black;
+            font-family: Times;
+            font-size: 25px;
+        }
+
+        .catsgallery{
+            color: black;
+            font-family: Times;
+            font-size: 25px;
+        }
+
+        .catscaring{
+            color: black;
+            font-family: Times;
+            font-size: 40px;
+            font-weight: bold;
+            background-color: white;
+        }
+
+        #caring{
+            color: black;
+            font-family: Times;
+            font-size: 25px;
+        }
+
+        #space{
+            font-size: 65px;
+        }
+
+        #resources{
+            color: black;
+            font-family: Times;
+            font-size: 40px;
+        }
+
+    }
