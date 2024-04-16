@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UFC Fighter Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>UFC Fighter Viewer</h1>
+    <div id="selection">
+        <label for="weightClass">Select Weight Class:</label>
+        <select id="weightClass">
+            <option value="Flyweight">Flyweight</option>
+            <option value="Bantamweight">Bantamweight</option>
+            <option value="Featherweight">Featherweight</option>
+            <option value="Lightweight">Lightweight</option>
+            <option value="Welterweight">Welterweight</option>
+            <option value="Middleweight">Middleweight</option>
+            <option value="LightHeavyweight">Light Heavyweight</option>
+            <option value="Heavweight">Heavyweight</option>
+        </select>
+        <label for="rank">Select Rank:</label>
+        <select id="rank"></select>
+        <button onclick="showFighter()">View Fighter</button>
+    </div>
+    <div id="fighterInfo"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
