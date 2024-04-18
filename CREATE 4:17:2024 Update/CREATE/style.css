@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#fighter-info {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
