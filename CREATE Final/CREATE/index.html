@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC Fighter Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>UFC Fighter Lookup</h1>
+    <a href="help.html"><button class="help">Help</button></a>
+    <label for="weight-class">Select Weight Class:</label>
+    <select id="weight-class">
+        <option value="wstrawweight">Women's Strawweight</option>
+        <option value="wflyweight">Women's Flyweight</option>
+        <option value="wbantamweight">Women's Bantamweight</option>
+        <option value="flyweight">Men's Flyweight</option>
+        <option value="bantamweight">Men's Bantamweight</option>
+        <option value="featherweight">Men's Featherweight</option>
+        <option value="lightweight">Men's Lightweight</option>
+        <option value="welterweight">Men's Welterweight</option>
+        <option value="middleweight">Men's Middleweight</option>
+        <option value="lightheavyweight">Men's Light Heavyweight</option>
+        <option value="heavyweight">Men's Heavyweight</option>
+    </select>
+    <label for="rank">Select Rank (1-4):</label>
+    <input type="number" id="rank" min="1" max="4">
+    <button onclick="getFighter()">Get Fighter</button>
+
+
+    <div id="fighter-info"></div>
+
+    <script src="rankings.js"></script>
+</body>
+</html>

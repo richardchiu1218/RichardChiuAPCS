@@ -1,0 +1,51 @@
+.container {
+    max-width: 100px;
+    margin: 50px auto;
+    text-align: center;
+    height: 100vh;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    width: 320px;
+    height: 300px;
+}
+
+#fighterInfo {
+    margin-top: 20px;
+}
+
+.help {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.more-info {
+    position: absolute;
+    bottom: 0;
+    left: 1;
+}
+
